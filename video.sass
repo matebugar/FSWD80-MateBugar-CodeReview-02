@@ -1,0 +1,308 @@
+/* styles for video.html starts here */
+.techheader 
+	margin: auto
+	width: 96%
+	background-color: #c4c4c4
+
+.techheader p
+	font-size: 27px
+	padding: 15px 30px
+	color: #383535
+	text-align: center
+
+/*styles for video.html ends here*/
+
+body
+	width: 1100px
+	margin: auto
+
+.main
+	background-color: white
+
+.header
+	display: flex
+	justify-content: space-between
+	margin: auto
+	background-color: #4d1b1c
+	height: 150px
+
+#headerlogo
+	margin-top: 50px
+	margin-left: 40px
+
+#headerlogo2
+	margin-top: 50px
+	margin-right: 40px
+
+.nav
+	background-color: black
+	list-style-type: none
+	padding: 10px 24px
+	margin: 0
+	font-size: 22px
+	
+.nav li
+	display: inline-block
+	padding-right: 20px
+	padding-top: 5px
+	padding-bottom: 5px
+	padding-left: 10px
+
+.nav li a
+	color: white
+	text-decoration: none
+
+.nav li a:hover 
+	background-color: lightgrey
+	color: black
+	padding: 5px 10px 5px 10px
+	border-radius: 10px	
+	
+#date
+	text-align: right
+	padding-right: 20px
+	font-size: 20px
+	font-family: Arial
+	color: #807a79
+
+.news
+	margin: auto
+	width: 96%
+	background-color: #c4c4c4
+	
+.news p , .pop p
+	font-size: 27px
+	padding: 15px 30px
+	color: #383535
+
+.articleContainer
+	margin-left: 2.5%
+	width: 80%
+
+.container1
+	display: flex
+	justify-content: space-between
+
+.article1 , .article2
+	display: flex
+	flex-wrap: wrap
+	justify-content: space-between
+
+.article1 img , .article2 img
+	width: 270px
+	height: 180px
+	margin: 0
+	padding: 0 
+
+.article1 p , .article2 p 
+	background-color: black
+	color: white
+	width: 250px
+	height: 50px
+	font-size: 18px
+	text-align: center
+	margin: 0 
+	padding-bottom: 15px
+	padding-left: 15px
+
+.article1 a , .article2 a , .article3 a
+	text-decoration: none 
+
+.article1 div , .article2 div , .article3 div
+	margin: 0 10px 10px 0
+
+.logo1
+	margin: 0
+	
+.logo1 a
+	margin: 0
+	
+
+.logo1 img
+	margin: 0
+	height: 220px
+	width: 250px	
+
+.pop
+	width: 97%
+	background-color: #c4c4c4
+	text-align: left
+
+.logo1
+	display: none
+
+#logo2 img
+	width: 160px
+	height: 552px
+
+.logo2	
+	margin-right: 2.7%
+
+#logo3
+	text-align: center
+	padding: 30px 0 30px 0
+
+.article3
+	width: 80%
+	margin-left: 2.5%
+
+.container2
+	display: flex
+	justify-content: space-between
+
+.article3
+	display: flex
+	justify-content: space-between
+	flex-wrap: wrap
+
+.article3 img
+	margin: 0
+	padding: 0 
+	width: 400px
+	height: 290px
+
+.article3 p 
+	width: 400px
+	height: 60px
+	font-size: 20px
+	text-align: center
+	margin: 0 
+	padding: 0 
+	background-color: black
+	color: white
+
+#logo4 img
+	padding-left: 10px 
+	width: 160px
+	height: 656px
+
+.logo4	
+	margin-right: 2.5%
+
+.navfooter
+	list-style-type: none
+	background-color: black
+	font-size: 15px
+	margin: 0
+	padding:  10px 10px
+	
+.navfooter li
+	display: inline-block
+	padding-right: 5px
+	padding-left: 5px
+
+.navfooter li a
+	color: white
+	text-decoration: none
+
+footer
+	background-color: black
+
+footer p 
+	padding-bottom: 5px
+	color: white
+	text-align: center
+	font-size: 20px
+
+#footerlogo
+	text-align: right
+	padding-right: 25px
+
+
+.article1 div , .article2 div , .article3 div
+	margin: 0 10px 10px 0
+
+@media screen and (max-width: 480px) 
+
+	nav
+		text-align: center
+		padding: 0
+
+	nav ul
+		padding: 0
+	
+	nav li a
+		margin: auto 60px
+		padding-right: 0
+		display: block
+
+	.pop
+		margin: 0
+
+
+@media screen and (min-width: 880px) and (max-width: 1024px) 
+
+	#hide
+		display: none
+
+@media screen and (max-width: 880px)
+
+	.logo1 , #hide 
+		display: block
+
+	#logo3 
+		display: none	
+
+	@media screen and (max-width: 1024px) 
+
+	body
+		width: 80%
+
+	nav
+		text-align: center
+
+	.nav
+		padding:  10px
+
+	.nav li
+		padding-right: 2px
+		padding-left: 2px	
+	
+	#headerlogo2 
+		display: none
+
+	.news , .pop
+		width: 100%
+
+	.articleContainer
+		margin: auto
+	
+	#logo2 , #logo4 img
+		padding: 0
+
+	.logo2 , .logo4 
+		margin-right: 0	
+
+	#logo4 img
+		height: 440px
+
+	.article3
+		margin: auto
+
+	.article3 img
+		width: 250px
+		height: 160px
+
+	.article3 p 
+		width: 250px	
+
+	#logo2 , #logo4 
+		display: none
+
+	.articleContainer ,  .article3
+		margin: 0
+		align-content: center
+		text-align: center	
+
+	.articleContainer , .article3
+		width: 100%
+
+	.article1 , .article2 , .article3
+		justify-content: center
+
+	.navfooter
+		text-align: center
+
+	#footerlogo
+		text-align: center
+		padding-right: 0
